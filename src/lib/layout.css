@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  @apply w-3;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-800;
+}
+
+:focus-visible {
+  outline: none;
+}
